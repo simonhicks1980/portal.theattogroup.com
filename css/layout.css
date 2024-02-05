@@ -1,0 +1,14 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Background color */
+}
+
+.center-image {
+  max-width: 90%; /* Adjust based on preference */
+  max-height: 90%; /* Adjust based on preference */
+  object-fit: contain; /* Keeps the aspect ratio of the image */
+}
